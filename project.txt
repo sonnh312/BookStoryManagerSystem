@@ -1,0 +1,36 @@
+Khi có yêu cầu nhập sách từ các đại lý, một bộ phận quản lý việc phát hành 
+sẽ kiểm tra lượng sách hiện có. Nếu được, bộ phận này sẽ lập một phiếu xuất để
+xuất sách cho đại lý. Trong phiếu xuất có ghi rõ tên đại lý, địa chỉ đại lý, người 
+nhận sách, ngày xuất, các thông tin về sách. Hệ thống lưu lại một bản sao của 
+phiếu xuất và ghi nợ cho đại lý. Nếu không có đủ số lượng hoặc không có loại sách 
+yêu cầu thì thông báo từ chối xuất. 
+Khi có nhu cầu mua sách mới từ nhà xuất bản, bộ phận quản lý việc nhập 
+sách sẽ kiểm tra chất lượng sách. Nếu chất lượng sách đảm bảo, nhà xuất bản sẽ
+chuyển sách đến công ty. Bộ phận này sẽ lập một phiếu nhập sách. Trong phiếu 
+nhập có ghi rõ tên nhà xuất bản, địa chỉ nhà xuất bản, điện thoại nhà xuất bản, 
+người giao sách, ngày nhập, thông tin về sách nhập, đơn giá, số lượng xuất, lĩnh 
+vực, thành tiền, tổng số tiền, các chữ ký của nguời viết phiếu, người giao, thủ trưởng 
+đon vị. Ngoài ra trên phiếu còn ghi rõ phiếu xuất do công ty phát hành sách phát 
+hành, ngày phát hành, số hiệu phiếu. Một bản phiếu nhập sách giao cho nhà xuất 
+bản, một bản lưu giữ lại và sau đó sách được chuyển vào kho. 
+Hàng tháng các đại lý sẽ gửi danh mục những sách đã bán được cho bộ phận 
+thống kê. Bộ phận này sẽ thống kê lại lượng sách đã bán, thu tiền và điều chỉnh 
+sách từ các đại lý. Bộ phận này cũng thống kê lượng sách còn tồn trong kho sau đó 
+gửi thông báo về sách tồn và thanh toán tiền sách đã bán cho các nhà xuất bản. 
+Ngoài ra hệ thống cần lưu giữ các thông tin về sách gồm tên sách, tên tác 
+giả, lĩnh vực…Các thông tin về nhà xuất bn gồm tên, địa chỉ, số điện thoại, số tài 
+khoản,…Trong thông tin lưu trữ về các đại lý cần có thông tin về lượng sách đã 
+lấy, số tiền đã trả, số tiền còn nợ để đảm bảo không một đại lý nào được nợ quá số
+tiền cho phép
+
+user login -> inf nhan vien 
+cap nhat book trong kho 
+lap phieu xuat -> so hieu 
+lap phieu nhap -> so hieu
+in phieu cho nxb 
+luu thong tin cua dai ly -> lượng sách đã lấy, số tiền đã trả, số tiền còn nợ -> accept cho hay khong
+bao cao, thong ke 
+
+
+
+
